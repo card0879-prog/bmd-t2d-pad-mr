@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript (currently under review)."
+title: "Type 2 diabetes rather than bone mineral density underlies the osteoporosis–peripheral artery disease association: a multivariable Mendelian randomization study"
+authors:
+  - { family-names: "Zhang", given-names: "Haoshaqiang" }
+  - { family-names: "Wang", given-names: "Zhijun" }
+  - { family-names: "Guo", given-names: "Wenjuan" }
+  - { family-names: "Ma", given-names: "Yinxiang" }
+  - { family-names: "Tao", given-names: "Jing" }
+  - { family-names: "Wang", given-names: "Lu" }
+  - { family-names: "Wang", given-names: "Jie" }
+  - { family-names: "Luo", given-names: "Cheng" }
+  - { family-names: "Xu", given-names: "Kailang" }
+  - { family-names: "Ning", given-names: "Kai" }
+  - { family-names: "Wang", given-names: "Li" }
+  - { family-names: "Yang", given-names: "Yining" }
+year: 2026
+status: "under review"
+notes: "Manuscript under review. Zenodo DOI to be added after repository archiving."
