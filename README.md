@@ -18,9 +18,9 @@ Corresponding author: Haoshaqiang Zhang (zhanghaoshaqiang@126.com).
 All analyses use publicly available GWAS summary statistics obtained through the OpenGWAS database (https://gwas.mrcieu.ac.uk/) and FinnGen (https://www.finngen.fi/en/access_results). No individual-level data were used. GWAS accessions and sample sizes are listed in the manuscript (Table 1 and Additional file 1 / Table S1).
 
 ## Repository contents
-- `R/` — analysis scripts (`00_config.R` … `07_supplementary_analyses.R`), including `PLOSONE_supplementary.R`, which runs the statistical-precision and cardiometabolic-confounder-screen analyses.
+- `R/` — analysis scripts (`00_config.R` … `07_supplementary_analyses.R`), including `08_confounder_screen_and_power.R`, which runs the statistical-precision and cardiometabolic-confounder-screen analyses.
 - `results/harmonised_eBMD_PAD_R5.csv` — harmonised per-variant dataset for the primary eBMD→PAD analysis (493 instruments: rsID, effect/other alleles, betas, effect-allele frequencies, and the mr_keep flag).
-- `results/PLOSONE_supplementary_summary.txt` — output of the confounder screen and precision analysis: the 52 instruments associated with a cardiometabolic confounder (p < 5×10⁻⁸) and the IVW estimate before (OR 1.03) and after (OR 1.02) their exclusion.
+- `results/confounder_screen_summary.txt` — output of the confounder screen and precision analysis: the 52 instruments associated with a cardiometabolic confounder (p < 5×10⁻⁸) and the IVW estimate before (OR 1.03) and after (OR 1.02) their exclusion.
 
 ## Requirements
 R (≥ 4.0) with `TwoSampleMR`, `ieugwasr`, `MVMR`, `MRPRESSO`, `phenoscanner`, and `data.table`. An OpenGWAS API token is required for live data retrieval (obtain one at https://api.opengwas.io).
